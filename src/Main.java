@@ -1,4 +1,5 @@
 import basic.*;
+import pattern.*;
 import java.util.Scanner;
 
 public class Main {
@@ -15,6 +16,15 @@ public class Main {
             System.out.println("5. Factorial using Recursion");
             System.out.println("6. Fibonacci Sequence");
             System.out.println("7. Reverse Number");
+            System.out.println("8. Palindrome Check for Number or String");
+            System.out.println("9. Check Prime Number");
+            System.out.println("10. Check Armstrong Number");
+            System.out.println("11. Check Leap Year");
+            System.out.println("12. Sum of Digits");
+            System.out.println("13. Right Angled Triangle");
+            System.out.println("14. Pyramid");
+            System.out.println("15. Diamond");
+            System.out.println("16. Floyd's Triangle");
             System.out.println();
             System.out.print("Enter your choice: ");
 
@@ -27,7 +37,16 @@ public class Main {
                 case 4: Factorial.runLoop(sc); break;
                 case 5: Factorial.runRecursive(sc); break;
                 case 6: Fibonacci.run(sc); break;
-                case 7: ReverseNum.run(sc); break;
+                case 7: Reverse.runRevNum(sc); break;
+                case 8: Palindrome.run(sc); break;
+                case 9: PrimeNumber.run(sc); break;
+                case 10: ArmstrongNumber.run(sc); break;
+                case 11: LeapYear.run(sc); break;
+                case 12: SumOfDigits.run(sc); break;
+                case 13: RightAngledTriangle.run(sc); break;
+                case 14: Pyramid.run(sc); break;
+                case 15: Diamond.run(sc); break;
+                case 16: FloydsTriangle.run(sc); break;
                 case 0:
                     sc.close();
                     System.out.println("Exiting...");
