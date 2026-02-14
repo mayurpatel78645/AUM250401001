@@ -13,6 +13,7 @@ public class Main {
             System.out.println("3. Even or Odd");
             System.out.println("4. Factorial using Loop");
             System.out.println("5. Factorial using Recursion");
+            System.out.println("6. Fibonacci Sequence");
             System.out.println();
             System.out.print("Enter your choice: ");
 
@@ -24,6 +25,7 @@ public class Main {
                 case 3: EvenOdd.run(sc); break;
                 case 4: Factorial.runLoop(sc); break;
                 case 5: Factorial.runRecursive(sc); break;
+                case 6: Fibonacci.run(sc); break;
                 case 0:
                     sc.close();
                     System.out.println("Exiting...");
