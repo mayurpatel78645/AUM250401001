@@ -17,6 +17,7 @@ public class Main {
             System.out.println("7. Reverse Number");
             System.out.println("8. Palindrome Check for Number or String");
             System.out.println("9. Check Prime Number");
+            System.out.println("10. Check Armstrong Number");
             System.out.println();
             System.out.print("Enter your choice: ");
 
@@ -32,6 +33,7 @@ public class Main {
                 case 7: Reverse.runRevNum(sc); break;
                 case 8: Palindrome.run(sc); break;
                 case 9: PrimeNumber.run(sc); break;
+                case 10: ArmstrongNumber.run(sc); break;
                 case 0:
                     sc.close();
                     System.out.println("Exiting...");

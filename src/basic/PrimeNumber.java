@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class PrimeNumber {
     public static void run(Scanner sc){
+        System.out.print("Enter a number: ");
         int num = sc.nextInt();
         boolean flag = num >= 2;
         for (int i = 2; i <= num; i++){
