@@ -1,0 +1,19 @@
+package pattern;
+import java.util.Scanner;
+
+public class Pyramid {
+    public static void run(Scanner sc) {
+        System.out.print("Enter the number of rows: ");
+        int rows = sc.nextInt();
+
+        for (int i = 1; i <= rows; i++) {
+            for (int j = rows - i; j >= 1; j--) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
