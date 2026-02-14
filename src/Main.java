@@ -1,4 +1,5 @@
 import basic.*;
+import pattern.*;
 import java.util.Scanner;
 
 public class Main {
@@ -20,6 +21,7 @@ public class Main {
             System.out.println("10. Check Armstrong Number");
             System.out.println("11. Check Leap Year");
             System.out.println("12. Sum of Digits");
+            System.out.println("13. Right Angled Triangle");
             System.out.println();
             System.out.print("Enter your choice: ");
 
@@ -38,6 +40,7 @@ public class Main {
                 case 10: ArmstrongNumber.run(sc); break;
                 case 11: LeapYear.run(sc); break;
                 case 12: SumOfDigits.run(sc); break;
+                case 13: RightAngledTriangle.run(sc); break;
                 case 0:
                     sc.close();
                     System.out.println("Exiting...");
