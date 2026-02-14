@@ -23,6 +23,7 @@ public class Main {
             System.out.println("12. Sum of Digits");
             System.out.println("13. Right Angled Triangle");
             System.out.println("14. Pyramid");
+            System.out.println("15. Diamond");
             System.out.println();
             System.out.print("Enter your choice: ");
 
@@ -43,6 +44,7 @@ public class Main {
                 case 12: SumOfDigits.run(sc); break;
                 case 13: RightAngledTriangle.run(sc); break;
                 case 14: Pyramid.run(sc); break;
+                case 15: Diamond.run(sc); break;
                 case 0:
                     sc.close();
                     System.out.println("Exiting...");
